@@ -1,0 +1,120 @@
+/* font family */
+@font-face {
+	font-family: "nikosh";
+	src: url("../fonts/nikosh.ttf");
+  }
+@font-face {
+    font-family: "kalpurush";
+    src: url("../fonts/kalpurush.ttf");
+  }
+@font-face {
+      font-family: "HindSiliguriMediumRegular";
+      src: url("../fonts/HindSiliguriMediumRegular.ttf");
+  }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #090D16; /* কালো ব্যাকগ্রাউন্ড */
+  color: #ffffff; /* সাদা টেক্সট */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header Section */
+.hero {
+  background-color: #1c1f26; /* গাঢ় ধূসর */
+  padding: 20px;
+  border-bottom: 2px solid #4caf50; /* সবুজ বর্ডার */
+}
+
+.hero h1 {
+  font-size: 28px;
+  color: #0f9d14; /* সবুজ টাইটেল */
+  margin: 0;
+}
+.hero h4 {
+  font-size: 18px;
+  color: #b3ed12; /* সবুজ টাইটেল */
+  margin: 0;
+  font-family: HindSiliguriMediumRegular;
+}
+
+/* Description Section */
+.description {
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.description h2 {
+  font-size: 22px;
+  color: #4caf50;
+}
+
+.description p {
+  font-family: HindSiliguriMediumRegular;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #1c1f26; /* গাঢ় ধূসর */
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+}
+
+.input-group input::placeholder {
+  color: #888888;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #76d275;
+}
+
+/* Button Styles */
+.input-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #45a049;
+}
